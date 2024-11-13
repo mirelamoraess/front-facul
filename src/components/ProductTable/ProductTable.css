@@ -1,0 +1,140 @@
+/* Geral */
+td,
+th {
+  padding: 18px;
+  border: none;
+  border-bottom: 1px solid #e8eaed;
+}
+
+.container-table-product table {
+  border-collapse: collapse;
+  white-space: nowrap;
+  margin-bottom: 30px;
+  min-width: 931px;
+}
+
+/* Estilização de Cabeçalhos */
+th {
+  text-align: center;
+  font-size: 18px;
+  color: #17181b;
+  font-weight: 600;
+}
+
+.th-product-name {
+  text-align: left;
+  width: 25px;
+}
+
+/* Estilização de Células */
+td {
+  padding: 18px;
+  text-align: center;
+  font-size: 15px;
+  color: #3c4043;
+}
+
+.td-product-name {
+  text-align: left;
+}
+
+/* Contêiner da Tabela */
+.container-table-product {
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilização do Ícone de Compra */
+.plus-icon {
+  font-size: 24px;
+  background: linear-gradient(19%, #dd1100 70%, #a50f34 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.plus-icon:hover {
+  opacity: 0.8;
+}
+
+/* Scrollbar customizado */
+.container-table-product::-webkit-scrollbar {
+  height: 10px;
+}
+
+.container-table-product::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.container-table-product::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  border: none;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background-color: #e0e0e0;
+  border: 2px solid white;
+}
+
+/* Cores de status */
+.green {
+  color: #4bd178;
+}
+
+.red {
+  color: #f35b5b;
+}
+
+.td-product-buy {
+  color: #ff4040;
+  cursor: pointer;
+}
+
+/* Estilos do modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 1086px;
+  text-align: center;
+}
+
+.open-modal-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modal-info {
+  display: flex;
+  gap: 39px;
+  justify-content: center;
+  align-items: center;
+}
+
